@@ -1,0 +1,15 @@
+# Scratch output from agents and people: logs, query dumps, drafts, one-off scripts
+scratch/
+
+# Local Claude Code overrides (personal permissions, machine paths)
+.claude/settings.local.json
+CLAUDE.local.md
+
+.env
+.env.*
+!.env.example
+node_modules/
+
+dist/
+.turbo/
+output/

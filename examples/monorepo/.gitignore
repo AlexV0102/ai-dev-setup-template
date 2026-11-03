@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.turbo/
+output/
+scratch/
+.claude/settings.local.json
+CLAUDE.local.md
+.env
+.env.*
+!.env.example
