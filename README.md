@@ -33,6 +33,15 @@ None of this is malice; it is missing context. This template supplies the contex
 | [`examples/monorepo/`](examples/monorepo) | A complete, ready-to-use repo: the whole setup with placeholders filled in, plus a minimal npm-workspaces/Turborepo app (Fastify API, Vite web page, shared Zod contract), unit tests, a Playwright smoke suite and a passing `npm run check`. |
 | [`scripts/sync-example.mjs`](scripts/sync-example.mjs) | Regenerates the example's copies of the setup from the template; `--check` fails when they drift. |
 
+## Use this template (GitHub button)
+
+1. Click **Use this template** → **Create a new repository**.
+2. In your new repo, keep only what you need:
+   - starting from scratch: move the contents of `examples/monorepo` to the root
+     and delete the rest;
+   - adding to an existing project: follow [Adopt it in an existing repo](#adopt-it-in-an-existing-repo-15-minutes) below.
+3. Delete `scripts/sync-example.mjs`: it only maintains this template.
+
 ## Start a new repo from the example
 
 ```sh
